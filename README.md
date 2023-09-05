@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [https://crisdotta.github.io/](https://crisdotta.github.io/)
 
-- 💬 Ask me about **HTML,CSS,JavaScript and MySQL**
+- 💬 Ask me about **HTML,CSS,JavaScript, ReactJS, NodeJS and MySQL**
 
 - 📫 How to reach me **cristiandotta24@gmail.com**
 
