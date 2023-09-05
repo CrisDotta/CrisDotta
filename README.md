@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Cristian Dotta</h1>
 <h3 align="center">An university student and full-stack developer from Buenos Aires, Argentina</h3>
 
-- 🌱 I’m currently learning **Angular, ReactJS**
+- 🌱 I’m currently learning **NodeJS, ReactJS**
 
 - 👨‍💻 All of my projects are available at [https://crisdotta.github.io/](https://crisdotta.github.io/)
 
-- 💬 Ask me about **HTML,CSS,JavaScript and Java**
+- 💬 Ask me about **HTML,CSS,JavaScript and MySQL**
 
 - 📫 How to reach me **cristiandotta24@gmail.com**
 
