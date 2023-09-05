@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #202030;
+  color: white;
+}
+.header {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  word-spacing: 5px;
+  background-color: white;
+  box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+.main {
+  text-align: center;
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  margin: 20px 0;
+  border: 3px solid white;
+  padding: 20px 50px;
+  font-size: 3em;
+}
+.user,
+.comp {
+  background-color: rgb(184, 18, 18);
+  padding: 5px;
+  margin: -15px;
+  z-index: 1;
+}
+
+.subtext {
+  margin: 40px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-rock {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.img-paper {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.img-scissors {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+}
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+img:hover {
+  cursor: pointer;
+}
+.instructions-container {
+  margin: 20px 0;
+  font-size: 1.4em;
+}

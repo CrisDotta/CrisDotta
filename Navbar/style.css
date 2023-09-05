@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+#nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 16px 58px -11px rgba(196, 196, 196, 0.75);
+  -webkit-box-shadow: 1px 16px 58px -11px rgba(196, 196, 196, 0.75);
+  -moz-box-shadow: 1px 16px 58px -11px rgba(196, 196, 196, 0.75);
+  padding: 10px;
+}
+#h1-content {
+  padding: 4px;
+}
+#logo {
+  font-size: 2em;
+} 
+span{
+  color: hsl(205, 78%, 60%);
+}
+#bars {
+  display: none;
+}
+li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: all ease-out 0.2s;
+}
+a:hover {
+  color: hsl(205, 78%, 60%);
+  font-size: 1.5em;
+  transition: all ease-in 0.2s;
+}
+
+i {
+  padding: 0 10px;
+  font-size: 1.5em;
+  transition: all ease-out 0.2s;
+}
+i:hover {
+  color: hsl(205, 78%, 60%);
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+  font-size: 1.8em;
+}
+@media screen and (max-width: 800px) {
+  #nav {
+    box-shadow: none;
+  }
+  #icons {
+    display: none;
+  }
+  #bars {
+    display: flex;
+  }
+  #bars:hover {
+    transition: 0.1s;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+  #menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+  }
+  li {
+    display: block;
+  }
+  li:hover {
+    font-size: 1.1em;
+  }
+  a {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 255) 33%,
+      hsl(205, 78%, 60%) 5%
+    );
+
+    background-size: 300% 100%;
+    transition: background-position 0.1;
+    background-position: 0;
+  }
+  a:hover {
+    color: rgb(255, 245, 245);
+    background-position: 100%;
+  }
+}
+
+@keyframes makeItfadeIn {
+  100% {
+    background-position: left;
+  }
+}

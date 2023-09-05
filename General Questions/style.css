@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#container {
+  text-align: center;
+  width: 1000px;
+}
+
+#h1 {
+  font-family: "Great Vibes", sans-serif;
+  color: #c59d5f;
+  font-size: 3em;
+}
+#faq {
+  display: inline-block;
+  background-color: white;
+  width: 700px;
+  margin: 30px;
+  font-size: 1.2em;
+  padding: 20px;
+  box-shadow: 1px 1px 18px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 18px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 18px 6px rgba(0, 0, 0, 0.75);
+}
+
+.question {
+  display: inline-block;
+  letter-spacing: 3px;
+}
+i {
+  font-size: 1.3em;
+  color: #c59d5f;
+}
+.btn {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  font-size: 15px;
+  float: right;
+}
+.close {
+  display: none;
+}
+.answer {
+  border-top: 1px solid gray;
+  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <script src="https://kit.fontawesome.com/6789cdf993.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">Rock Paper Scissors</h1>
+    </div>
+    <div class="main">
+        <div class="result-container">
+            <p class="user">user</p>
+            <h3 class="result"><span id="player-result">0</span> : <span id="comp-result">0</span></h3>
+            <p class="comp">comp</p>
+        </div>
+        <div class="subtext">
+            <h2 class="subtext-h2"><span id="move-made"></span>
+            </h2>
+        </div>
+        <div class="images">
+            <div class="img-rock"><img src="rock.png" alt="" id="rock"></div>
+            <div class="img-paper"><img src="paper.png" alt="" id="paper"></div>
+            <div class="img-scissors"> <img src="scissors.png" alt="" id="scissors"></div>
+        </div>
+        <div class="instructions-container">
+            <p class="instructions" id="instructions">Make your move</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body {
+  background: url("./hero.jpeg") center/cover no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+#modal {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#modal-content {
+  background-color: white;
+  padding: 50px 150px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 50px 17px rgba(140, 137, 137, 0.75);
+  -webkit-box-shadow: 2px 2px 50px 17px rgba(140, 137, 137, 0.75);
+  -moz-box-shadow: 2px 2px 50px 17px rgba(140, 137, 137, 0.75);
+}
+#title {
+  font-size: 3em;
+}
+#btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: hsl(205, 78%, 60%);
+  color: white;
+  border-color: transparent;
+}
+#btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: hsl(205, 78%, 60%);
+  border-color: hsl(205, 78%, 60%);
+  animation: 0.1s fade-in;
+}
+
+
+#modal-open{
+    position: absolute;
+    top: 38%;
+    right: 36%;
+    padding: 60px 150px;
+    background-color: beige;
+    text-align: center;
+    font-size: 30px;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: red;
+}
+#close:hover{
+    color: black;
+}
+@keyframes fade-in {
+  0% {
+    background-color: hsl(205, 78%, 60%);
+  }
+  25% {
+    background-color: hsl(205, 67%, 74%);
+  }
+  50% {
+    background-color: hsl(206, 41%, 81%);
+  }
+  75% {
+    background-color: hsl(205, 23%, 84%);
+  }
+  190% {
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+@keyframes animatetop {
+    from {top: -100px; opacity: 0}
+    to {top: 100; opacity: 1}
+  }

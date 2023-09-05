@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+.container{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+}
+.time{
+    font-size: 10em;
+    color: #333;
+}
+.date{
+    text-align: end;
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-right: 100px;
+}
+@media screen and (max-width: 992px) {
+    .date{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    .date{
+        font-size: 1.5em
+    }
+    .time{
+        font-size: 2em
+        
+    }
+    
+}

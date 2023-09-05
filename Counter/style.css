@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#cuadro {
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+}
+#counter-number {
+  font-size: 6em;
+}
+button {
+  font-size: 1em;
+  padding: 5px;
+  letter-spacing: 4px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: 530;
+}
+button:hover {
+  background-color: black;
+  animation: fade-in 0.2s;
+  color: white;
+}
+
+/*Animation*/
+@keyframes fade-in {
+  0% {
+    background-color: rgba(0, 0, 0, 0.253);
+  }
+  25%{
+    background-color: rgba(0, 0, 0, 0.473);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.644);
+  }
+  75%{
+    background-color: rgba(0, 0, 0, 0.829);
+  }
+  190% {
+    background-color: rgb(0, 0, 0);
+  }
+}
